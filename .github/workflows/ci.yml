@@ -9,4 +9,4 @@ jobs:
         with: {python-version: '3.11'}
       - run: pip install black ruff
       - run: black --check .
-      - run: ruff .
+      - run: ruff check .
